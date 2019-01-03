@@ -184,7 +184,7 @@
     },
     data() {
       return {
-        type: 'songList',     // 首页/排行榜 ：home, 歌单：songList, 关于：about
+        type: 'home',     // 首页/排行榜 ：home, 歌单：songList, 关于：about
         typeShow: true,       // 在歌单中默认显示的是歌曲类型，点击某一类型是显示歌曲列表
         musicTypeList: [],    // 所有音乐类型
         source: '020117',     // 音乐来源。网易云：'020117'，QQ：'020337'

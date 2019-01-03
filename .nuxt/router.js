@@ -2,9 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _5f461760 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _3777b2e8 = () => interopDefault(import('../pages/music.vue' /* webpackChunkName: "pages/music" */))
-const _1fd661d6 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _76a77cd4 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _2bc7002e = () => interopDefault(import('../pages/music.vue' /* webpackChunkName: "pages/music" */))
+const _3737c74a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
 
@@ -65,15 +65,15 @@ export function createRouter() {
 
     routes: [{
       path: "/about",
-      component: _5f461760,
+      component: _76a77cd4,
       name: "about"
     }, {
       path: "/music",
-      component: _3777b2e8,
+      component: _2bc7002e,
       name: "music"
     }, {
       path: "/",
-      component: _1fd661d6,
+      component: _3737c74a,
       name: "index"
     }],
 

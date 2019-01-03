@@ -11,12 +11,12 @@ UI组件库：[ant-design-vue](https://vuecomponent.github.io/ant-design-vue/)
 在线演示：[暂时还没有]()
 ---
 
-###视频演示
-
 ####个人介绍
+
 ![图片介绍](./static/Images/个人介绍.gif)
 
 ####音乐播放
+
 ![音乐介绍](./static/Images/音乐介绍.gif)
 
 ### 安装
