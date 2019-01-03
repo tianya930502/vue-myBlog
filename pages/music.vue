@@ -157,7 +157,7 @@
   import Vue from 'vue';
   import axios from 'axios';
   import Lyric from 'lyric-parser'; // 处理歌词
-  import { Input, Pagination, Spin, Icon, Progress, Tooltip, Tabs } from 'ant-design-vue';
+  import { Input, Pagination, Spin, Icon, Progress, Tooltip, Tabs, message } from 'ant-design-vue';
   import musicList from '../components/tools/musicList.vue';  // 歌曲列表
   import myProgress from '../components/tools/myProgress.vue'; // 歌曲进度条
   import soundControl from '../components/tools/soundControl.vue'; // 声音进度条
@@ -171,6 +171,9 @@
   Vue.use(Progress);
   Vue.use(Tooltip);
   Vue.use(Tabs);
+  Vue.use(message);
+
+  Vue.prototype.$message = message;
 
   export default {
     name: 'music',
@@ -293,6 +296,7 @@
       },
       onSearch(value) {
         console.log(value);
+        alert('暂时没有搜索功能！！！');
       },
       // 音乐类型列表
       getMusicTypeList() {
