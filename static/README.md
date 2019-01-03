@@ -9,9 +9,9 @@ UI组件库：[ant-design-vue](https://vuecomponent.github.io/ant-design-vue/)
 请求：[axios](https://www.kancloud.cn/yunye/axios/234845)
 
 在线演示：[暂时还没有]()
+
 ---
 
-###视频演示
 
 ####个人介绍
 ![图片介绍](./static/Images/个人介绍.gif)
